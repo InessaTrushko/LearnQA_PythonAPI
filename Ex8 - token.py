@@ -32,7 +32,7 @@ print()
 time.sleep(seconds_value)
 
 # ----- проверяем задачу ещё раз
-print("Сhecking task again...")
+print("Checking the task again...")
 
 response3 = requests.get("https://playground.learnqa.ru/ajax/api/longtime_job", params=token)
 result_second = json.loads(response3.text).get('status')
